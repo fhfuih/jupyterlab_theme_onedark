@@ -1,7 +1,7 @@
 {
   "name": "jupyterlab_theme_onedark",
   "version": "0.1.0",
-  "description": "A JupyterLab theme extension.",
+  "description": "An unofficial port of OneDark theme for JupyterLab.",
   "author": "fhfuih <fhfuih@outlook.com>",
   "keywords": [
     "jupyter",
@@ -54,12 +54,12 @@
     "extension": true,
     "themePath": "style/index.css"
   },
-  "homepage": "http://github.com/fhfuih/jupyterlab-theme-material",
+  "homepage": "http://github.com/fhfuih/jupyterlab_theme_onedark",
   "bugs": {
-    "url": "http://github.com/fhfuih/jupyterlab-theme-material/issues"
+    "url": "http://github.com/fhfuih/jupyterlab_theme_onedark/issues"
   },
   "repository": {
     "type": "git",
-    "url": "http://github.com/fhfuih/jupyterlab-theme-material.git"
+    "url": "http://github.com/fhfuih/jupyterlab_theme_onedark.git"
   }
 }
