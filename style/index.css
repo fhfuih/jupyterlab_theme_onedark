@@ -1,0 +1,90 @@
+/*-----------------------------------------------------------------------------
+| Copyright (c) Jupyter Development Team.
+| Distributed under the terms of the Modified BSD License.
+|----------------------------------------------------------------------------*/
+
+@import './variables.css';
+
+/* Set the default typography for monospace elements */
+tt,
+code,
+kbd,
+samp,
+pre {
+  font-family: var(--jp-code-font-family);
+  font-size: var(--jp-code-font-size);
+  line-height: var(--jp-code-line-height);
+}
+
+#jp-top-panel {
+  color: var(--jp-ui-font-color2);
+  background: var(--jp-layout-color2);
+  border-bottom: none;
+}
+
+.lm-MenuBar {
+  background: var(--jp-layout-color2);
+}
+
+.lm-MenuBar.lm-mod-active .lm-MenuBar-item.lm-mod-active {
+  background: rgba(255, 255, 255, 0.1);
+  border-color: transparent;
+  z-index: unset; /* Behind menu (10000). Originally 10001 (right above) */
+}
+
+.lm-Menu {
+  background: var(--jp-layout-color1);
+  border-color: var(--jp-layout-color1);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.8), 0 0 6px rgba(0, 0, 0, 0.5);
+}
+
+.jp-SideBar.lm-TabBar.jp-mod-left,
+.jp-SideBar.lm-TabBar.jp-mod-right,
+#jp-left-stack,
+#jp-right-stack {
+  border-color: var(--jp-layout-color2);
+}
+
+.jp-DirListing-header {
+  background: var(--jp-layout-color2);
+  box-shadow: none;
+  border: none;
+}
+
+.jp-DirListing-item:hover:not(.jp-mod-selected) {
+  background: var(--jp-layout-color0);
+}
+
+.jp-DirListing-item.jp-mod-selected {
+  background: var(--jp-layout-color2);
+  color: var(--jp-ui-font-color0);
+}
+
+.jp-Notebook .jp-Cell .jp-Collapser {
+  cursor: pointer;
+}
+
+.jp-SideBar.lm-TabBar .lm-TabBar-tab.lm-mod-current .jp-icon3[fill] {
+  fill: var(--jp-inverse-layout-color1);
+}
+
+.jp-SideBar.lm-TabBar.jp-mod-left .lm-TabBar-tab + .lm-TabBar-tab.lm-mod-current,
+.jp-SideBar.lm-TabBar.jp-mod-left .lm-TabBar-tab.lm-mod-current + .lm-TabBar-tab,
+.jp-SideBar.lm-TabBar.jp-mod-right .lm-TabBar-tab.lm-mod-current:last-child
+.jp-SideBar.lm-TabBar.jp-mod-right .lm-TabBar-tab + .lm-TabBar-tab.lm-mod-current,
+.jp-SideBar.lm-TabBar.jp-mod-right .lm-TabBar-tab.lm-mod-current + .lm-TabBar-tab,
+.jp-SideBar.lm-TabBar.jp-mod-left .lm-TabBar-tab.lm-mod-current:last-child {
+  border-color: var(--jp-layout-color2);
+}
+
+.jp-SideBar.lm-TabBar .lm-TabBar-tab.lm-mod-current {
+  background: var(--jp-layout-color2);
+  box-shadow: inset 0 var(--jp-border-width) var(--jp-inverse-layout-color1);
+}
+
+.lm-DockPanel-tabBar .lm-TabBar-tab,
+.lm-DockPanel-widget,
+.lm-DockPanel-tabBar {
+  border: none;
+}
+
