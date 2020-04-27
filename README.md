@@ -1,6 +1,18 @@
 # JupyterLab Theme OneDark
 
-An *unofficial* port of OneDark theme for JupyterLab. I noticed that many onedark ports intentionally changes the name a little bit, say `onedork`, `halfdark`. I don't know why but, if that's related to some license issue, please remind me to change the package name!
+An *unofficial* port of OneDark theme for JupyterLab. I noticed that many onedark ports intentionally changes the name a little bit, say `onedork`, `onehalfdark`. I don't know why but, if that's related to some license issue, please remind me to change the package name!
+
+## Screenshot
+
+![Screenshot](assets/screenshot.jpg)
+
+The codes demonstrated in the screenshot above is the [*m5-baseline* notebook for the Kaggle competetion M5 Forcasting](https://www.kaggle.com/harupy/m5-baseline/), authored by (kaggle)@harupy.
+
+## Notes
+
+In my development version, the scrollbar is not themed unless I manually toggle an HTML attribute `<body data-jp-theme-scrollbars="(set to true)">`. This should not be an issue of my theme, and this switch should be enabled as long as I tick `Settings -> JupyterLab Theme -> Theme Scrollbar`. I have to see if the issue persists in the published version. 
+
+In the screenshot, I have manually switched on this attribute, so you can see my theme configuration of the scrollbar.
 
 ## Prerequisites
 
